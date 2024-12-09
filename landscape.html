@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <meta name="description" content="" />
+        <link rel="stylesheet" href="css/destyle.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body id="landscapebody">
+        <header class="landscapeheader">
+            <h1 class="landscapeh1">旅行の思い出</h1>
+            <p>過去に訪れた美しい場所をご紹介します</p>
+        </header>
+
+        <section class="gallerylandscape">
+            <div class="gallerylandscape-item">
+                <img src="images/Thai.jpg" alt="Abroad" />
+                <p>Abroad</p>
+            </div>
+            <div class="gallerylandscape-item">
+                <img src="images/photo2.jpg" alt="旅行写真2" />
+                <p>旅行写真2</p>
+                <!-- テキストを追加 -->
+            </div>
+            <div class="gallerylandscape-item">
+                <img src="images/photo3.jpg" alt="旅行写真3" />
+                <p>旅行写真3</p>
+                <!-- テキストを追加 -->
+            </div>
+            <div class="gallerylandscape-item">
+                <img src="images/photo4.jpg" alt="旅行写真4" />
+                <p>旅行写真4</p>
+                <!-- テキストを追加 -->
+            </div>
+            <!-- 写真を追加 -->
+        </section>
+
+        <!-- モーダル（ポップアップ） -->
+        <div class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="fullImg" />
+            <div id="caption"></div>
+            <div id="modal-links">
+                <a href="landscape-thai.html" id="link1">Thai</a>
+                <a href="page2.html" id="link2">Malaysia</a>
+                <a href="page2.html" id="link2">Vietnam</a>
+                <a href="page2.html" id="link2">Vietnam</a>
+                <a href="page2.html" id="link2">Taiwan</a>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+        <div class="button-container">
+            <button onclick="location.href='index.html'">ホームに戻る</button>
+        </div>
+    </body>
+</html>

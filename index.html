@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <meta name="description" content="" />
-    </head>
-    <body>
-        <h1>githum test</h1>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/destyle.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <div>
+                <img src="images/TMHP_page-0001.jpg" alt="">
+            </div>
+        </h1>
+    </header>
+
+    <div class="slider">
+        <div class="slides">
+            <!-- スライド1 -->
+            <div class="slide"><img src="images/fuji.jpg" alt="スライド1"></div>
+            <!-- スライド2 -->
+            <div class="slide"><img src="images/spring.jpg" alt="スライド2"></div>
+            <!-- スライド3 -->
+            <div class="slide"><img src="images/summer.JPG" alt="スライド3"></div>
+            <!-- スライド4 -->
+            <div class="slide"><img src="images/autom.jpg" alt="スライド4"></div>
+            <!-- スライド5 -->
+            <div class="slide"><img src="images/winter.jpg" alt="スライド5"></div>
+        </div>
+
+        <!-- 前後ナビゲーションボタン -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- 複数ページへのリンクボタン -->
+    <div class="button-container">
+        <button onclick="location.href='landscape.html'">Landscape</button>
+        <button onclick="location.href='gourmet.html'">Gourmet</button>
+        <button onclick="location.href='sports.html'">Sports</button>
+        <button onclick="location.href='art.html'">Art</button>
+        <button onclick="location.href='music.html'">Music</button>
+    </div>
+
+
+
+    <script src="js/common.js"></script>
+</body>
 </html>
